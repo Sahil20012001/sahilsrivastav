@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Noto+Serif+Vithkuqi:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(197, 192, 192);
+    width: 209px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.sidebar nav{
+    padding: 29px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 11px;
+    font-size: 18px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: rgb(130, 54, 222);*/
+    height: 75vh;
+    width: 78vw;
+    margin: 131px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.devpic img{
+    height: 75vh;
+
+}
+.hello{
+    font-size: 52px;
+}
+.name{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.about{
+    font-size: 23px;
+}
+.moreabout{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 14px;
+    padding: 10px;
+    border-radius: 29px;
+    background-color: rgb(95, 95, 222);
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 13px;
+    border-radius: 16px;
+    margin: 12px 0;
+    padding: 10px 19px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(95, 95, 222);
+}
+.contactform{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 144px;
+    padding: 74px;   
+}
+.contactform h1{
+    font-family: 'Nunito', sans-serif;
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 10px;
+    color: darkslategrey;
+}
+#clientemail{
+    border-radius: 5px;
+    width: 23vw;
+}
+#clientphone{
+    border-radius: 5px;
+    width: 23vw;
+}
+#isclient{
+    width: 12px;
+}
